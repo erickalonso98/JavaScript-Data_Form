@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    width: 50%;
+    border: none;
+    margin-top: 170px;
+    margin-left: 25%;
+    padding: 15px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.atributos{
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.input_name{
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+    border-radius:10px ;
+}
+
+.button{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+    color:#fff;
+    background-color: #0A0A2A;
+}
+
+.button:hover{
+    background-color: #0B0B61;
+}
+
+#datos_info{
+    border: 1px dashed #000;
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    margin-top: 100px;
+    text-align: center;
+    display: none;
+}

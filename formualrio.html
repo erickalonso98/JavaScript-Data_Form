@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" class="formulario" method="post">
+            <h1>Formulario</h1>
+            <label class="atributos" for="nom">Nombre</label>
+            <input type="text" class="input_name" id="nombre" placeholder="Nombre">
+
+            <label class="atributos" for="ape">Apellido</label>
+            <input type="text" class="input_name" id="apellido" placeholder="Apellido">
+
+            <label class="atributos" for="eda">Edad</label>
+            <input type="number" class="input_name" id="edad" placeholder="Edad">
+            
+            <input class="button" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div id="datos_info">
+        <h3>Datos Consultados</h3>
+        <hr>
+        <br>
+        <p id="data_nom">Nombre:</p><span></span><br>
+        <p id="data_ape">Apellido:</p><span></span><br>
+        <p id="data_eda">Edad:</p><span></span><br>
+    </div>
+</body>
+</html>
